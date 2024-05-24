@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
             <div className="py-8 pr-4 pl-16">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left pb-5">
-                <img src={FooterLogo} alt="" className="max-h-[60px]" />
+                <img src={FooterLogo} alt="" className="max-h-[60px] lg:w-48" />
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
