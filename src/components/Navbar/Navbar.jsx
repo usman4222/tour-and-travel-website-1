@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo4.png";
 import { NavLink, Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
@@ -58,9 +58,9 @@ const Navbar = ({ handleOrderPopup }) => {
         </div>
         <div className="container py-3 sm:py-0">
           <div className="flex justify-between items-center">
-            <div className="flex items-center gap-4  font-bold text-2xl">
+            <div className="flex items-center gap-4  font-bold text-2xl py-2">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                <img src={Logo} alt="" className="h-16" />
+                <img src={Logo} alt="" className="h-16 w-72" />
               </Link>
               {/* <span>TCJ Tourism</span> */}
             </div>
