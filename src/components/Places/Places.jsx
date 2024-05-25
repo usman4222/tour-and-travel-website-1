@@ -1,11 +1,11 @@
 import React from "react";
 import PlaceCard from "./PlaceCard";
-import Img1 from "../../assets/places/boat.jpg";
-import Img2 from "../../assets/places/tajmahal.jpg";
-import Img3 from "../../assets/places/water.jpg";
-import Img4 from "../../assets/places/place4.jpg";
-import Img5 from "../../assets/places/place5.jpg";
-import Img6 from "../../assets/places/place6.jpg";
+import Img1 from "../../assets/Website images/hunza-valley.jpg";
+import Img2 from "../../assets/Website images/skardu.jpg";
+import Img3 from "../../assets//Website images/Muree.jpg";
+import Img4 from "../../assets/Website images/Sawat.jpg";
+import Img5 from "../../assets/Website images/Neelum.jpg";
+import Img6 from "../../assets/Website images/Naran.jpg";       
 
 const PlacesData = [
   {
@@ -14,7 +14,7 @@ const PlacesData = [
     location: "Gilgit-Baltistan",
     description: "Hunza Valley is a stunning place in Pakistan with beautiful mountains, clear rivers, and friendly people.",
     price: 6700,
-    type: "Tourism",
+    type: "Start From",
   },
   {
     img: Img2,
@@ -22,15 +22,15 @@ const PlacesData = [
     location: "Skardu",
     description: "Skardu is a beautiful place in Pakistan known for its towering mountains, clear lakes, and warm hospitality.",
     price: 6700,
-    type: "Tourism",
+    type: "Start From",
   },
   {
     img: Img3,
-    title: "Muree",
-    location: "Gilgit-Baltistan",
-    description: "Fairy Meadows is a magical spot in Pakistan, offering stunning views of Nanga Parbat and a serene atmosphere.",
+    title: "Galyat",
+    location: "Khyber Pakhtunkhwa",
+    description: "Galyat is a delightful region in Pakistan, offering refreshing mountain air, scenic views, and lush forests.",
     price: 6200,
-    type: "Tourism",
+    type: "Start From",
   },
   {
     img: Img4,
@@ -38,23 +38,23 @@ const PlacesData = [
     location: "Khyber Pakhtunkhwa",
     description: "Swat Valley is a picturesque destination in Pakistan, renowned for its lush green valleys and crystal-clear rivers. ",
     price: 6700,
-    type: "Tourism",
+    type: "Start From",
   },
   {
     img: Img5,
     title: "Neelum / Kail",
     location: "Kashmir",
-    description: "Kashmir is a mesmerizing region in Pakistan, famed for its breathtaking landscapes, serene lakes, and vibrant culture.",
+    description: "Neelum Valley, including Kail, is a hidden gem in Pakistan, boasting enchanting landscapes, and a rich cultural.",
     price: 6700,
-    type: "Tourism",
+    type: "Start From",
   },
   {
     img: Img6,
     title: "Naran / Kaghan",
     location: "Khyber Pakhtunkhwa",
-    description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+    description: "Naran and Kaghan are captivating destinations in Pakistan, offering majestic mountains, and refreshing air.",
     price: 6200,
-    type: "Tourism",
+    type: "Start From",
   },
 ];
 
