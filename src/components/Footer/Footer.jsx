@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
-                <p>+92 327 8700060</p>
+                <p>+92 309 9903335</p>
               </div>
               {/* social handles */}
               <div>

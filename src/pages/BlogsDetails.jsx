@@ -4,8 +4,8 @@ import BlogsComp from "../components/Blogs/BlogsComp";
 
 const BlogsDetails = (props) => {
   const location = useLocation();
-  console.log(props, " props");
-  console.log(location, " useLocation Hook");
+  // console.log(props, " props");
+  // console.log(location, " useLocation Hook");
   const { image, date, title, description, author } = location.state;
 
   return (
@@ -17,17 +17,19 @@ const BlogsDetails = (props) => {
           className="mx-auto h-[300px] w-full object-cover transition duration-700 hover:scale-110"
         />
       </div>
-      <div className="container ">
-        <p className="text-slate-600 text-sm py-3">
+      <div className="container pt-10">
+        {/* <p className="text-slate-600 text-sm py-3">
           {" "}
           written by {author} on {date}
-        </p>
-        <h1 className="text-2xl font-semibold">{title}</h1>
+        </p> */}
+        <h1 className="text-2xl font-semibold pb-5">{title}</h1>
         <p>{description}</p>
       </div>
 
       {/* All Blogs Section */}
-      <BlogsComp />
+      <div className="mb-10">
+        <BlogsComp />
+      </div>
     </div>
   );
 };
