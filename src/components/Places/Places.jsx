@@ -10,8 +10,8 @@ import Img6 from "../../assets/places/place6.jpg";
 const PlacesData = [
   {
     img: Img1,
-    title: "Hunza",
-    location: "Hunza (Gilgit-Baltistan)",
+    title: "Hunza / Gilgit",
+    location: "Gilgit-Baltistan",
     description: "Hunza Valley is a stunning place in Pakistan with beautiful mountains, clear rivers, and friendly people.",
     price: 6700,
     type: "Tourism",
@@ -19,14 +19,14 @@ const PlacesData = [
   {
     img: Img2,
     title: "Skardu",
-    location: "Skardu (Gilgit-Baltistan)",
+    location: "Skardu",
     description: "Skardu is a beautiful place in Pakistan known for its towering mountains, clear lakes, and warm hospitality.",
     price: 6700,
     type: "Tourism",
   },
   {
     img: Img3,
-    title: "Fairy Meddows",
+    title: "Fairy Meadows",
     location: "Gilgit-Baltistan",
     description: "Fairy Meadows is a magical spot in Pakistan, offering stunning views of Nanga Parbat and a serene atmosphere.",
     price: 6200,
@@ -34,7 +34,7 @@ const PlacesData = [
   },
   {
     img: Img4,
-    title: "Sawat kalaam",
+    title: "Sawat / Kalaam",
     location: "Khyber Pakhtunkhwa",
     description: "Swat Valley is a picturesque destination in Pakistan, renowned for its lush green valleys and crystal-clear rivers. ",
     price: 6700,
@@ -42,7 +42,7 @@ const PlacesData = [
   },
   {
     img: Img5,
-    title: "Kashmir",
+    title: "Neelum / Kail",
     location: "Kashmir",
     description: "Kashmir is a mesmerizing region in Pakistan, famed for its breathtaking landscapes, serene lakes, and vibrant culture.",
     price: 6700,
@@ -50,10 +50,9 @@ const PlacesData = [
   },
   {
     img: Img6,
-    title: "Los Vegas",
-    location: "California",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
+    title: "Naran / Kaghan",
+    location: "Khyber Pakhtunkhwa",
+    description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
     price: 6200,
     type: "Cultural Relax",
   },
