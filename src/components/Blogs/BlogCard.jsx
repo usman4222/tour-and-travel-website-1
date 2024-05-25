@@ -16,7 +16,7 @@ const BlogCard = ({ image, date, title, description, author }) => {
         }}
         state={{ image, date, title, description, author }}
       >
-        <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white">
+        <div className=" shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white">
           <div className="overflow-hidden">
             <img
               src={image}
@@ -26,10 +26,10 @@ const BlogCard = ({ image, date, title, description, author }) => {
           </div>
           <div className="flex justify-between pt-2 text-slate-600">
             <p>{date}</p>
-            <p className="line-clamp-1">By {author}</p>
+            {/* <p className="line-clamp-1">By {author}</p> */}
           </div>
-          <div className="space-y-2 py-3">
-            <h1 className="line-clamp-1 font-bold">{title}</h1>
+          <div className="space-y-2 p-3">
+            <h1 className="ine-clamp-1 font-bold text-xl">{title}</h1>
             <p className="line-clamp-2">{description}</p>
           </div>
         </div>

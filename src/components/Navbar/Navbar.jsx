@@ -60,7 +60,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-4  font-bold text-2xl py-2">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                <img src={Logo} alt="" className="h-16 w-32 lg:w-72" />
+                <img src={Logo} alt="" className="h-20 w-32 lg:w-72" />
               </Link>
               {/* <span>TCJ Tourism</span> */}
             </div>
@@ -115,7 +115,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
             <div className="flex items-center gap-4">
               <button
-                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full"
+                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full hidden lg:block"
                 onClick={() => {
                   handleOrderPopup();
                 }}

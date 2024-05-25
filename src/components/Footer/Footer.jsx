@@ -43,9 +43,9 @@ const Footer = () => {
         </video>
         <div className="container">
           <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
-            <div className="py-8 pr-4 pl-16">
+            <div className="py-8 pr-4 pl-5 md:pl-16">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left pb-5">
-                <img src={FooterLogo} alt="" className="max-h-[60px] lg:w-48" />
+                <img src={FooterLogo} alt="" className="max-h-[70px] lg:w-52" />
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">

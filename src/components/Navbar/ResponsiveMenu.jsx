@@ -3,7 +3,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { NavbarLinks } from "./Navbar";
 
-const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
+const ResponsiveMenu = ({ showMenu, setShowMenu, handleOrderPopup }) => {
   console.log("showMenu", showMenu);
   return (
     <div
@@ -12,13 +12,13 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
       } fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-white dark:bg-gray-900 dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 md:hidden rounded-r-xl shadow-md`}
     >
       <div className="card">
-        <div className="flex items-center justify-start gap-3">
+        {/* <div className="flex items-center justify-start gap-3">
           <FaUserCircle size={50} />
           <div>
             <h1>Hello User</h1>
             <h1 className="text-sm text-slate-500">User</h1>
           </div>
-        </div>
+        </div> */}
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
             {NavbarLinks.map((data) => (
@@ -33,6 +33,14 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
               </li>
             ))}
           </ul>
+          <button
+                className=" mt-4 bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full"
+                onClick={() => {
+                  handleOrderPopup();
+                }}
+              >
+                Book Now
+              </button>
         </nav>
       </div>
       {/* <div className="footer">
