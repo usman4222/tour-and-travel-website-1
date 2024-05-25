@@ -26,7 +26,7 @@ const PlacesData = [
   },
   {
     img: Img3,
-    title: "Fairy Meadows",
+    title: "Muree",
     location: "Gilgit-Baltistan",
     description: "Fairy Meadows is a magical spot in Pakistan, offering stunning views of Nanga Parbat and a serene atmosphere.",
     price: 6200,
@@ -38,7 +38,7 @@ const PlacesData = [
     location: "Khyber Pakhtunkhwa",
     description: "Swat Valley is a picturesque destination in Pakistan, renowned for its lush green valleys and crystal-clear rivers. ",
     price: 6700,
-    type: "Cultural Relax",
+    type: "Tourism",
   },
   {
     img: Img5,
@@ -46,7 +46,7 @@ const PlacesData = [
     location: "Kashmir",
     description: "Kashmir is a mesmerizing region in Pakistan, famed for its breathtaking landscapes, serene lakes, and vibrant culture.",
     price: 6700,
-    type: "Cultural Relax",
+    type: "Tourism",
   },
   {
     img: Img6,
@@ -54,7 +54,7 @@ const PlacesData = [
     location: "Khyber Pakhtunkhwa",
     description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
     price: 6200,
-    type: "Cultural Relax",
+    type: "Tourism",
   },
 ];
 
