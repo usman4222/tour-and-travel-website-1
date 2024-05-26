@@ -3,6 +3,7 @@ import BlogCard from "./BlogCard";
 import Img1 from "../../assets/Website images/student-visa-bg.jpg";
 import Img2 from "../../assets/Website images/visit visa.jpg";
 import Img3 from "../../assets/Website images/Hajj umrah.jpg";
+import ServiceGrid from "./ServiceGrid";
 
 const BlogsData = [
   {
@@ -39,6 +40,7 @@ const BlogsComp = () => {
             ))}
           </div>
         </section>
+        <ServiceGrid />
       </div>
     </>
   );
